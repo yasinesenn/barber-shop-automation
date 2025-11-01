@@ -1,0 +1,24 @@
+{
+  "name": "barber-shop-automation",
+  "version": "1.0.0",
+  "description": "Console-based Barber Shop automation system with full OOP principles",
+  "main": "dist/main.js",
+  "scripts": {
+    "start": "ts-node src/main.ts",
+    "dev": "ts-node src/main.ts",
+    "build": "tsc",
+    "test": "node dist/main.js"
+  },
+  "keywords": ["typescript", "oop", "console", "automation"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "inquirer": "^8.2.5"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^8.2.6",
+    "@types/node": "^20.10.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.3.2"
+  }
+}
